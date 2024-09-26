@@ -1,11 +1,12 @@
 import land from "@/assets/land.jpg";
 import Image from "next/image";
+import aboutOne from "@/assets/About Us/Section-03-01.png";
 
 function TruckingLogistics() {
   return (
     <section className="bg-[#F4FCFC] py-12">
       <div className="flex flex-col md:flex-row gap-6 layout">
-        <Image src={land} alt="land" className="w-full md:w-1/2" />
+        <Image src={aboutOne} alt="land" className="w-full md:w-1/2" />
 
         <div className="w-full md:w-1/2">
           <div>

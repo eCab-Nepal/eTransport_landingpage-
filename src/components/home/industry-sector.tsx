@@ -1,8 +1,9 @@
-import consumerPackage from "@/assets/industry-sector/consumer-package.svg";
-import chemical from "@/assets/industry-sector/chemical-goods.svg";
-import food from "@/assets/industry-sector/food.svg";
-import retail from "@/assets/industry-sector/retail.svg";
-import energy from "@/assets/industry-sector/energy.svg";
+import consumerPackage from "@/assets/section 03/Consumer Package.svg";
+import chemical from "@/assets/section 03/Chemical Goods.svg";
+import food from "@/assets/section 03/Food and Beverage.svg";
+import retail from "@/assets/section 03/Retail Goods.svg";
+import energy from "@/assets/section 03/energy.svg";
+import rightImage from "@/assets/Home Page/02.-Section_Sectors_01.png";
 import Image from "next/image";
 
 function IndustrySector() {
@@ -23,31 +24,36 @@ function IndustrySector() {
 
             <div className="flex mt-4 flex-col gap-3">
               <div className="flex gap-3 items-center">
-                <Image src={consumerPackage} alt="consumer" />
+                <Image
+                  width={60}
+                  height={60}
+                  src={consumerPackage}
+                  alt="consumer"
+                />
                 <p className="text-white text-lg font-light">
                   Consumer Packaged Goods
                 </p>
               </div>
 
               <div className="flex gap-3 items-center">
-                <Image src={chemical} alt="consumer" />
+                <Image width={60} height={60} src={chemical} alt="consumer" />
                 <p className="text-white text-lg font-light">Chemical Goods</p>
               </div>
 
               <div className="flex gap-3 items-center">
-                <Image src={food} alt="consumer" />
+                <Image width={60} height={60} src={food} alt="consumer" />
                 <p className="text-white text-lg font-light">
                   Food and Beverage
                 </p>
               </div>
 
               <div className="flex gap-3 items-center">
-                <Image src={retail} alt="consumer" />
+                <Image width={60} height={60} src={retail} alt="consumer" />
                 <p className="text-white text-lg font-light">Retail Goods</p>
               </div>
 
               <div className="flex gap-3 items-center">
-                <Image src={energy} alt="consumer" />
+                <Image width={60} height={60} src={energy} alt="consumer" />
                 <p className="text-white text-lg font-light">
                   Energy, Oil and Gas
                 </p>
@@ -60,7 +66,13 @@ function IndustrySector() {
       </section>
       <div className="absolute top-0 left-0  -z-30 bg-success-secondary h-full w-full  md:w-1/2 "></div>
 
-      <div className="hidden md:block absolute top-0 right-0  -z-30 bg-success-main/80 h-full w-1/2 "></div>
+      <div className="hidden md:block absolute top-0 right-0  -z-30 bg-success-main/80 h-full w-1/2 ">
+        <Image
+          src={rightImage}
+          alt="right image"
+          className="w-full object-cover"
+        />
+      </div>
     </div>
   );
   return (

@@ -1,7 +1,7 @@
-import contract from "@/assets/what-we-offer/contract.svg";
-import overland from "@/assets/what-we-offer/overland.svg";
-import warehouseing from "@/assets/what-we-offer/warehousing.svg";
-import consulting from "@/assets/what-we-offer/consulting-service.svg";
+import contract from "@/assets/section-2/certificate_1863460.svg";
+import overland from "@/assets/section-2/travel_7923724.svg";
+import warehouseing from "@/assets/section-2/forklift_504562.svg";
+import consulting from "@/assets/section-2/Consulting (2).svg";
 
 export const whatWeOfferData = [
   {

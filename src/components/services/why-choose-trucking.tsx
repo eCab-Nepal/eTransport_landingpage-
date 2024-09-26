@@ -1,6 +1,7 @@
 import Image from "next/image";
 import land from "@/assets/land.jpg";
 import { CircleCheck } from "lucide-react";
+import aboutThree from "@/assets/About Us/Section-03-03.png";
 
 function WhyChooseTrucking() {
   return (
@@ -56,7 +57,7 @@ function WhyChooseTrucking() {
             </div>
           </div>
         </div>
-        <Image src={land} alt="land" className="w-full md:w-[55%]" />
+        <Image src={aboutThree} alt="land" className="w-full md:w-[55%]" />
       </div>
     </section>
   );

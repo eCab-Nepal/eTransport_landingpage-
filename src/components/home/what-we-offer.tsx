@@ -16,7 +16,13 @@ function WhatWeOffer() {
             className="flex gap-6 items-center p-8 bg-neutral-50"
             key={element.title}
           >
-            <Image src={element.image} alt={element.title} />
+            <Image
+              width={75}
+              height={75}
+              className="object-cover"
+              src={element.image}
+              alt={element.title}
+            />
 
             <div>
               <p className="text-xl font-semibold text-success-main">

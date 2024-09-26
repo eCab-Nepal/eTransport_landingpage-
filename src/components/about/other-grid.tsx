@@ -5,6 +5,9 @@ import retail from "@/assets/industry-sector/retail.svg";
 import energy from "@/assets/industry-sector/energy.svg";
 import Image from "next/image";
 import { CircleCheck } from "lucide-react";
+import aboutOne from "@/assets/About Us/Section-03-01.png";
+import aboutTwo from "@/assets/About Us/Section-03-02.png";
+import aboutThree from "@/assets/About Us/Section-03-03.png";
 
 function OtherGrid() {
   return (
@@ -61,7 +64,13 @@ function OtherGrid() {
         </div>
         <div className="absolute top-0 left-0 -z-30 bg-[#F6F6F6] h-full w-full md:w-1/2"></div>
 
-        <div className="hidden md:block absolute top-0 right-0  -z-30 bg-success-secondary/80 h-full w-1/2 "></div>
+        <div className="hidden md:block absolute top-0 right-0  -z-30 bg-success-secondary/80 h-full w-1/2 ">
+          <Image
+            src={aboutOne}
+            alt="right image"
+            className="w-full object-cover"
+          />
+        </div>
       </div>
       {/* sedcond */}
 
@@ -97,7 +106,14 @@ function OtherGrid() {
           </div>
         </div>
 
-        <div className="hidden md:block absolute top-0 left-0  -z-30 bg-success-secondary/80 h-full   md:w-1/2 "></div>
+        <div className="hidden md:block absolute top-0 left-0  -z-30 bg-success-secondary/80 h-full   md:w-1/2 ">
+          {" "}
+          <Image
+            src={aboutTwo}
+            alt="right image"
+            className="w-full object-cover"
+          />
+        </div>
 
         <div className=" absolute top-0 right-0  -z-30 bg-[#F6F6F6] h-full w-full md:w-1/2"></div>
       </div>
@@ -179,7 +195,14 @@ function OtherGrid() {
 
         <div className="absolute top-0 left-0  -z-30 bg-[#F6F6F6] h-full w-full  md:w-1/2 "></div>
 
-        <div className="hidden md:block absolute top-0 right-0  -z-30 bg-success-secondary/80 h-full w-1/2 "></div>
+        <div className="hidden md:block absolute top-0 right-0  -z-30 bg-success-secondary/80 h-full w-1/2 ">
+          {" "}
+          <Image
+            src={aboutThree}
+            alt="right image"
+            className="w-full object-cover"
+          />
+        </div>
       </div>
     </section>
   );

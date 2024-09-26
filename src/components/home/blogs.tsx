@@ -8,12 +8,17 @@ import {
   CardTitle,
 } from "../ui/card";
 
+import blogOne from "@/assets/Home Page/Home-Section-02_01.png";
+import blogTwo from "@/assets/Home Page/Home-Section-02_03.png";
+import blogThree from "@/assets/Home Page/Home-Section-02_04.png";
+import Image from "next/image";
+
 function Blogs() {
   return (
     <section className="bg-[#1B2936] py-12">
       <div className="layout grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <Card className="rounded-none">
-          <div className="h-48 bg-neutral-100 w-full"></div>
+          <Image src={blogOne} alt="blog one" />
           <CardHeader>
             <div className="h-1 w-16 mb-3 bg-success-secondary" />
             <CardTitle className="mt-2 uppercase text-success-main">
@@ -28,7 +33,8 @@ function Blogs() {
         </Card>
 
         <Card className="rounded-none">
-          <div className="h-48 bg-neutral-100 w-full"></div>
+          <Image src={blogTwo} alt="blog one" />
+
           <CardHeader>
             <div className="h-1 w-16 mb-3 bg-success-secondary" />
             <CardTitle className=" uppercase text-success-main">
@@ -45,7 +51,8 @@ function Blogs() {
         </Card>
 
         <Card className="rounded-none">
-          <div className="h-48 bg-neutral-100 w-full"></div>
+          <Image src={blogThree} alt="blog one" />
+
           <CardHeader>
             <div className="h-1 w-16 mb-3 bg-success-secondary" />
             <CardTitle className="mt-2 uppercase text-success-main">
