@@ -68,7 +68,7 @@ function OtherGrid() {
           <Image
             src={aboutOne}
             alt="right image"
-            className="w-full object-cover"
+            className="w-full object-cover h-full"
           />
         </div>
       </div>
@@ -111,7 +111,7 @@ function OtherGrid() {
           <Image
             src={aboutTwo}
             alt="right image"
-            className="w-full object-cover"
+            className="w-full object-cover h-full"
           />
         </div>
 
@@ -200,7 +200,7 @@ function OtherGrid() {
           <Image
             src={aboutThree}
             alt="right image"
-            className="w-full object-cover"
+            className="w-full object-cover h-full"
           />
         </div>
       </div>

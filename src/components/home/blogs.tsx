@@ -18,7 +18,7 @@ function Blogs() {
     <section className="bg-[#1B2936] py-12">
       <div className="layout grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <Card className="rounded-none">
-          <Image src={blogOne} alt="blog one" />
+          <Image src={blogOne} alt="blog one" className="w-full" />
           <CardHeader>
             <div className="h-1 w-16 mb-3 bg-success-secondary" />
             <CardTitle className="mt-2 uppercase text-success-main">
@@ -33,7 +33,7 @@ function Blogs() {
         </Card>
 
         <Card className="rounded-none">
-          <Image src={blogTwo} alt="blog one" />
+          <Image src={blogTwo} alt="blog one" className="w-full" />
 
           <CardHeader>
             <div className="h-1 w-16 mb-3 bg-success-secondary" />
@@ -51,7 +51,7 @@ function Blogs() {
         </Card>
 
         <Card className="rounded-none">
-          <Image src={blogThree} alt="blog one" />
+          <Image src={blogThree} alt="blog one" className="w-full" />
 
           <CardHeader>
             <div className="h-1 w-16 mb-3 bg-success-secondary" />

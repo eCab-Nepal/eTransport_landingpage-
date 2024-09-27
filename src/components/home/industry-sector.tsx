@@ -70,7 +70,7 @@ function IndustrySector() {
         <Image
           src={rightImage}
           alt="right image"
-          className="w-full object-cover"
+          className="w-full object-cover h-full"
         />
       </div>
     </div>

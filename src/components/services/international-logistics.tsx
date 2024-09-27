@@ -1,4 +1,4 @@
-import Potrait from "@/assets/potrait.jpg";
+import Potrait from "@/assets/about-us.png";
 import Image from "next/image";
 
 function InternationalLogistics() {

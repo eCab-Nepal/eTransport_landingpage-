@@ -11,22 +11,22 @@ const heroData = [
   {
     title: "Strongest Distribution Network",
     description: "Powerful Platform & Logistics Services",
-    imageUrl: "/slide01.jpg",
+    imageUrl: "/Slider.png",
   },
   {
     title: "International Air Freight",
     description: "Fast International Air Delivery",
-    imageUrl: "/slide02.jpg",
+    imageUrl: "/Slider.png",
   },
   {
     title: "Freight Services",
     description: "Road, air & Logistic Web Solution",
-    imageUrl: "/slide02.jpg",
+    imageUrl: "/Slider.png",
   },
   {
     title: "TRUCKING",
     description: "Powerful Platform & Logistics Services",
-    imageUrl: "/slide04.jpg",
+    imageUrl: "/Slider.png",
   },
 ];
 
@@ -39,6 +39,7 @@ function Hero() {
             <div
               style={{
                 backgroundImage: `url(${item.imageUrl})`,
+                backgroundPosition: "center",
               }}
               className={`h-[calc(100vh-70px)] flex  flex-col items-center justify-center text-white`}
             >

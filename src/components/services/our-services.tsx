@@ -69,7 +69,7 @@ function OurServices() {
           {serviceData.map((item) => (
             <div
               key={item.title}
-              className="flex flex-col relative overflow-hidden  group items-center justify-between h-[450px] py-12"
+              className="flex flex-col relative overflow-hidden  group items-center justify-between aspect-video  py-12"
             >
               <div className="flex-col flex items-center">
                 <p className="text-2xl z-30 font-extrabold text-white ">
