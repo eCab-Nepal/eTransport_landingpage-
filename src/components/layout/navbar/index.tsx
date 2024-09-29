@@ -74,7 +74,7 @@ function Navbar() {
             <div className="mt-8 flex justify-center">
               <SheetClose asChild>
                 <Link href={"/"}>
-                  <Image src={logo} alt="logo" />
+                  <Image src={logoe} alt="logo" />
                 </Link>
               </SheetClose>
             </div>
