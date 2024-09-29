@@ -41,9 +41,9 @@ function Hero() {
                 backgroundImage: `url(${item.imageUrl})`,
                 backgroundPosition: "center",
               }}
-              className={`h-[calc(100vh-70px)] flex  flex-col items-center justify-center text-white`}
+              className={`relative h-[calc(100vh-70px)] flex  flex-col items-center  z-20 text-white bg-blend-overlay`}
             >
-              <div className="layout flex flex-col items-center justify-center">
+              <div className="mt-28 layout flex flex-col items-center ">
                 <h1 className="font-extrabold text-center uppercase text-4xl md:text-6xl tracking-wider">
                   {item.title}
                 </h1>
@@ -52,6 +52,8 @@ function Hero() {
                   {item.description}
                 </p>
               </div>
+
+              <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.6)] -z-30"></div>
             </div>
           </CarouselItem>
         ))}

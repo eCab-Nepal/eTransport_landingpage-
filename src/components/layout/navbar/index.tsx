@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import logoe from "@/assets/e-logo.svg";
 
 function Navbar() {
   const pathname = usePathname();
@@ -25,7 +26,7 @@ function Navbar() {
       <nav className="flex items-center justify-between layout p-4">
         <Link href={"/"}>
           {" "}
-          <Image src={logo} alt="logo" />
+          <Image src={logoe} alt="logo" />
         </Link>
         <div className="md:flex gap-6 items-center hidden ">
           {navigation.map((item) => (
