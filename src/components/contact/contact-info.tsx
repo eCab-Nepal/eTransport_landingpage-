@@ -97,7 +97,7 @@ function ContactInfo() {
 
           <div className="mt-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.532429028436!2d-73.9882851!3d40.7283085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599c85cf5d01%3A0xb74ffc9c6abbc70f!2s123%202nd%20Ave%2C%20New%20York%2C%20NY%2010003%2C%20USA!5e0!3m2!1sen!2snp!4v1726068321559!5m2!1sen!2snp"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4379.386062620522!2d83.46175077624922!3d27.687933876193686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39968778dbc1adfb%3A0x1bbcb9235d7414c5!2sE-Transportation%20Service!5e1!3m2!1sen!2snp!4v1732818751389!5m2!1sen!2snp"
               height="500"
               style={{ border: "0", width: "100%" }}
               loading="lazy"
@@ -111,11 +111,11 @@ function ContactInfo() {
 
           <div className="mt-4">
             <p className="text-sm text-neutral-600">
-              123 Second Street Fifth Avenue,
+              Tilottama-13, Patthardadha,
             </p>
-            <p className="text-sm text-neutral-600">Manhattan, New York</p>
-            <p className="text-lg text-blue-900">+00 41 258 489 6587</p>
-            <p className="text-sm text-neutral-600">info@trucking.com</p>
+            <p className="text-sm text-neutral-600">Rupandehi, Lumbini</p>
+            <p className="text-lg text-blue-900">9857029740</p>
+            <p className="text-sm text-neutral-600">lokraj@nepalets.com</p>
           </div>
 
           <div className="mt-4">
@@ -127,17 +127,6 @@ function ContactInfo() {
               transportation companion.
             </p>
           </div>
-          <div className="mt-4">
-            <p className="text-xl font-semibold text-neutral-900">
-              Stay Connected:
-            </p>
-            <p className="text-neutral-600 text-sm">
-              Follow us on social media for updates, news, and exclusive offers.
-            </p>
-          </div>
-          <p className="mt-4 text-neutral-900 font-semibold">
-            ETS Nepal – Empowering Seamless Transportation in Nepal.
-          </p>
         </div>
       </div>
     </section>
