@@ -12,7 +12,7 @@ function WhoWeAre() {
             worldwide, providing great shipping experience to our clients.
           </p>
 
-          <p className="mt-4">
+          <p className="mt-4 text-sm">
             At <strong>E-Transportation Service</strong> , we understand the
             challenges faced by vehicle owners and service providers. That’s why
             we’ve built a platform that bridges the gap between users and
@@ -20,7 +20,7 @@ function WhoWeAre() {
             need for hassle-free transportation.
           </p>
 
-          <p className="mt-2">
+          <p className="mt-2 text-sm">
             Our app leverages cutting-edge technology to offer real-time
             solutions, simplifying vehicle service registration, management, and
             navigation. From daily commuters to fleet operators, ETS Nepal is

@@ -7,7 +7,7 @@ function Mission() {
 
           <div className="mt-3 h-1 w-16 bg-success-main" />
         </div>
-        <ul className="list-disc mt-4 ">
+        <ul className="list-disc mt-4 text-sm">
           <li>
             To empower users with real-time access to vital vehicle services.
           </li>
