@@ -68,6 +68,12 @@ function Footer() {
           </div>
         </div>
       </div>
+
+      <div className="layout py-4">
+        <p className="text-neutral-50 text-center">
+          ETS Nepal – Empowering Seamless Transportation in Nepal.
+        </p>
+      </div>
     </footer>
   );
 }

@@ -117,6 +117,27 @@ function ContactInfo() {
             <p className="text-lg text-blue-900">+00 41 258 489 6587</p>
             <p className="text-sm text-neutral-600">info@trucking.com</p>
           </div>
+
+          <div className="mt-4">
+            <p className="text-xl font-semibold text-neutral-900">
+              Download ETS Nepal Today!
+            </p>
+            <p className="text-neutral-600 text-sm">
+              Available on iOS and Android, ETS Nepal is your ultimate
+              transportation companion.
+            </p>
+          </div>
+          <div className="mt-4">
+            <p className="text-xl font-semibold text-neutral-900">
+              Stay Connected:
+            </p>
+            <p className="text-neutral-600 text-sm">
+              Follow us on social media for updates, news, and exclusive offers.
+            </p>
+          </div>
+          <p className="mt-4 text-neutral-900 font-semibold">
+            ETS Nepal – Empowering Seamless Transportation in Nepal.
+          </p>
         </div>
       </div>
     </section>
