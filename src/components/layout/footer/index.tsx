@@ -60,11 +60,11 @@ function Footer() {
 
           <div className="flex text-neutral-200 flex-col gap-1">
             <p className="text-sm font-light">
-              123 Second Street Fifth Avenue,
+              Tilottama-13, Patthardadha, 
             </p>
-            <p className="text-sm font-light">Manhattan, New York</p>
-            <p>+00 41 258 489 6587</p>
-            <p className="text-sm font-light">info@trucking.com</p>
+            <p className="text-sm font-light">Rupandehi, Lumbini</p>
+            <p>9857029740</p>
+            <p className="text-sm font-light">lokraj@nepalets.com</p>
           </div>
         </div>
       </div>

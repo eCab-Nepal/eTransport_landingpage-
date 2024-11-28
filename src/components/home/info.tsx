@@ -30,10 +30,6 @@ function Info() {
           vehicle owners. Whether you’re a user or a provider, we ensure a
           smarter, smoother transportation experience for all.
         </p>
-
-        <p className="mt-6 text-2xl font-bold">
-          Navigate, Manage, and Thrive with ETS Nepal!
-        </p>
       </div>
     </section>
   );

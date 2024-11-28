@@ -9,8 +9,8 @@ import {
 
 const heroData = [
   {
-    title: "Strongest Distribution Network",
-    description: "Powerful Platform & Logistics Services",
+    title: "Welcome to E-Transportation Service",
+    description: "Navigate, Manage, and Thrive with ETS Nepal!",
     imageUrl: "/Slider.png",
   },
   {

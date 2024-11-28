@@ -9,9 +9,8 @@ function Home() {
     <main>
       <Hero />
       <Info />
-      <Blogs />
-      <WhatWeOffer />
       <IndustrySector />
+      <WhatWeOffer />
     </main>
   );
 }

@@ -18,8 +18,8 @@ function IndustrySector() {
             </p>
 
             <p className="mt-4 text-sm text-white">
-              We cover different industry sectors, from food and beverage,
-              chemical, retail, durable goods and more. Check the full list.
+              ETSNepal connects drivers to automotive services and EV infrastructure, 
+              while streamlining service management for providers.
             </p>
 
             <div className="flex mt-4 flex-col gap-3">
@@ -31,31 +31,31 @@ function IndustrySector() {
                   alt="consumer"
                 />
                 <p className="text-white text-lg font-light">
-                  Consumer Packaged Goods
+                  Automotive Services
                 </p>
               </div>
 
               <div className="flex gap-3 items-center">
                 <Image width={60} height={60} src={chemical} alt="consumer" />
-                <p className="text-white text-lg font-light">Chemical Goods</p>
+                <p className="text-white text-lg font-light">Electric Vehicle (EV) Infrastructure</p>
               </div>
 
               <div className="flex gap-3 items-center">
                 <Image width={60} height={60} src={food} alt="consumer" />
                 <p className="text-white text-lg font-light">
-                  Food and Beverage
+                  Logistics & Transportation
                 </p>
               </div>
 
               <div className="flex gap-3 items-center">
                 <Image width={60} height={60} src={retail} alt="consumer" />
-                <p className="text-white text-lg font-light">Retail Goods</p>
+                <p className="text-white text-lg font-light">Smart Mobility Solutions</p>
               </div>
 
               <div className="flex gap-3 items-center">
                 <Image width={60} height={60} src={energy} alt="consumer" />
                 <p className="text-white text-lg font-light">
-                  Energy, Oil and Gas
+                  Vehicle Maintenance & Repair
                 </p>
               </div>
             </div>
@@ -85,37 +85,37 @@ function IndustrySector() {
           </p>
 
           <p className="mt-4 text-sm text-white">
-            We cover different industry sectors, from food and beverage,
-            chemical, retail, durable goods and more. Check the full list.
+            ETSNepal connects drivers to automotive services and EV infrastructure, 
+            while streamlining service management for providers.
           </p>
 
           <div className="flex mt-4 flex-col gap-3">
             <div className="flex gap-3 items-center">
               <Image src={consumerPackage} alt="consumer" />
               <p className="text-white text-lg font-light">
-                Consumer Packaged Goods
+                Automotive Services
               </p>
             </div>
 
             <div className="flex gap-3 items-center">
               <Image src={chemical} alt="consumer" />
-              <p className="text-white text-lg font-light">Chemical Goods</p>
+              <p className="text-white text-lg font-light">Electric Vehicle (EV) Infrastructure</p>
             </div>
 
             <div className="flex gap-3 items-center">
               <Image src={food} alt="consumer" />
-              <p className="text-white text-lg font-light">Food and Beverage</p>
+              <p className="text-white text-lg font-light">Logistics & Transportation</p>
             </div>
 
             <div className="flex gap-3 items-center">
               <Image src={retail} alt="consumer" />
-              <p className="text-white text-lg font-light">Retail Goods</p>
+              <p className="text-white text-lg font-light">Smart Mobility Solutions</p>
             </div>
 
             <div className="flex gap-3 items-center">
               <Image src={energy} alt="consumer" />
               <p className="text-white text-lg font-light">
-                Energy, Oil and Gas
+                Vehicle Maintenance & Repair
               </p>
             </div>
           </div>
